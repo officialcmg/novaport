@@ -59,8 +59,19 @@ export default function Portfolio() {
       setError(null);
 
       try {
+        // Add timestamp for cache busting
+        const timestamp = new Date().getTime();
+        console.log(`🔄 Fetching portfolio for ${smartAccountAddress} at ${new Date().toISOString()}`);
+        
         const response = await fetch(
-          `/api/portfolio?address=${smartAccountAddress}`
+          `/api/portfolio?address=${smartAccountAddress}&t=${timestamp}`,
+          {
+            method: 'GET',
+            cache: 'no-store', // Don't cache this request
+            headers: {
+              'Cache-Control': 'no-cache',
+            },
+          }
         );
 
         if (!response.ok) {
@@ -89,13 +100,16 @@ export default function Portfolio() {
           balanceRaw: token.balanceRaw || "0",
         }));
 
-        console.log("📊 Portfolio fetched:", {
+        console.log("📊 Portfolio fetched successfully:", {
+          timestamp: new Date().toISOString(),
           totalUSD,
+          rawTokenCount: data.tokens.length,
           assetCount: transformedAssets.length,
           assets: transformedAssets.map(a => ({
             symbol: a.symbol,
-            logo: a.logo,
-            balanceUSD: a.balanceUSD
+            balance: a.balance,
+            balanceUSD: a.balanceUSD,
+            decimals: a.decimals,
           }))
         });
 

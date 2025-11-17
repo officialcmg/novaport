@@ -85,14 +85,32 @@ export async function GET(request: NextRequest) {
     // Extract token balances
     const tokenBalances = data.data?.portfolioV2?.tokenBalances;
     const totalBalanceUSD = tokenBalances?.totalBalanceUSD || 0;
-    const tokens =
+    const allTokens =
       tokenBalances?.byToken?.edges?.map((edge: any) => edge.node) || [];
-
-    return NextResponse.json({
-      success: true,
-      totalBalanceUSD,
-      tokens,
+    
+    // Filter out dust (tokens with 0 or near-0 balance)
+    const tokens = allTokens.filter((token: any) => {
+      const balance = parseFloat(token.balance || "0");
+      const balanceUSD = parseFloat(token.balanceUSD || "0");
+      return balance > 0 && balanceUSD > 0.01; // Minimum $0.01 USD value
     });
+    
+    console.log(`📊 Zapper returned ${allTokens.length} tokens, filtered to ${tokens.length} with real balance`);
+
+    return NextResponse.json(
+      {
+        success: true,
+        totalBalanceUSD,
+        tokens,
+      },
+      {
+        headers: {
+          'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
+          'Pragma': 'no-cache',
+          'Expires': '0',
+        },
+      }
+    );
   } catch (error) {
     console.error("Portfolio API error:", error);
     return NextResponse.json(

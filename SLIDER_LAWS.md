@@ -1,6 +1,6 @@
 # 📐 Slider Laws Implementation
 
-## ✅ CONFIRMED: I Understand The Laws
+
 
 ### **DEFINITIONS:**
 
