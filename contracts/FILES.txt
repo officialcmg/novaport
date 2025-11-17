@@ -1,0 +1,31 @@
+Complete ERC-4337 v0.6 Contract Files for Moonbeam
+===================================================
+
+Total: 13 Solidity files ✅
+
+accounts/ (3 files)
+  ├── SimpleAccountFactory.sol       [DEPLOY THIS]
+  ├── SimpleAccount.sol              
+  └── callback/
+      └── TokenCallbackHandler.sol   
+
+core/ (2 files)
+  ├── BaseAccount.sol                
+  └── Helpers.sol                    
+
+interfaces/ (8 files)
+  ├── IAccount.sol                   
+  ├── IAggregatedAccount.sol         
+  ├── IAggregator.sol                
+  ├── IEntryPoint.sol                
+  ├── INonceManager.sol              
+  ├── IPaymaster.sol                 
+  ├── IStakeManager.sol              
+  └── UserOperation.sol              
+
+✅ All dependencies resolved!
+✅ Version: v0.6.0 (matches Moonbeam EntryPoint)
+✅ Solidity: ^0.8.12
+✅ Ready to upload to Remix!
+
+Drag the entire "contracts/" folder into Remix.

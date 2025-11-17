@@ -1,3 +1,5 @@
+IMPORTANT: THIS REPO WAS SCAFFOLDED AS A PRIVY NEXTJS STARTER APP FROM [https://github.com/privy-io/examples/blob/main/privy-next-starter/README.md](https://github.com/privy-io/examples/blob/main/privy-next-starter/README.md)
+
 # Privy + Next.js Starter
 
 This example showcases how to get started using Privy's React SDK inside a Next.js application.

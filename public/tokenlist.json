@@ -1,0 +1,389 @@
+{
+  "name": "Novaport Moonbeam Token List",
+  "logoURI": "https://moonbeam.network/wp-content/uploads/2022/05/Moonbeam-Favicon.png",
+  "keywords": [
+    "moonbeam",
+    "defi",
+    "dex",
+    "verified"
+  ],
+  "tags": {
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Tokens pegged to fiat currencies"
+    },
+    "wrapped": {
+      "name": "Wrapped",
+      "description": "Wrapped or bridged tokens"
+    },
+    "lp": {
+      "name": "LP Token",
+      "description": "Liquidity provider tokens"
+    },
+    "dex": {
+      "name": "DEX",
+      "description": "Decentralized exchange tokens"
+    }
+  },
+  "timestamp": "2024-11-18T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 1284,
+      "address": "0x0000000000000000000000000000000000000802",
+      "symbol": "GLMR",
+      "name": "Glimmer",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/moonbeam/0x0000000000000000000000000000000000000000.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xAcc15dC74880C9944775448304B263D191c6077f",
+      "symbol": "WGLMR",
+      "name": "Wrapped GLMR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22459/small/glmr.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x931715FEE2d06333043d11F658C8CE934aC61D0c",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
+      "symbol": "USDC",
+      "name": "USD Coin (Wormhole)",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png",
+      "tags": ["stablecoin", "wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d",
+      "symbol": "USDC",
+      "name": "USD Coin (XC-20)",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8e70cD5B4Ff3f62659049e74b6649642532776c0",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+      "symbol": "USDT",
+      "name": "Tether USD (Wormhole)",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png",
+      "tags": ["stablecoin", "wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin (Wormhole)",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png",
+      "tags": ["stablecoin", "wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x922D641a426DcFFaeF11680e5358F34d97d112E1",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xE57eBd2d67B462E9926e04a8e33f01Cd0D64346D",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xab3f0245B83feB11d15AAffeFD7AD465a59817eD",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/small/weth.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "symbol": "xcDOT",
+      "name": "XC Polkadot",
+      "decimals": 10,
+      "logoURI": "https://assets.coingecko.com/coins/images/12171/small/polkadot.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "symbol": "xcACA",
+      "name": "XC Acala",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/20634/small/ACA.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2",
+      "symbol": "STELLA",
+      "name": "StellaSwap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22257/small/STELLA_Logo.png",
+      "tags": ["dex"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x06A3b410b681c82417A906993aCeFb91bAB6A080",
+      "symbol": "xSTELLA",
+      "name": "Staked StellaSwap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22257/small/STELLA_Logo.png",
+      "tags": ["dex"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xD2666441443DAa61492FFe0F37717578714a4521",
+      "symbol": "GLINT",
+      "name": "Beamswap Token",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20776/small/glint.png",
+      "tags": ["dex"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "symbol": "BEANS",
+      "name": "MoonBeans",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24065/small/beans.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x511aB53F793683763E5a8829738301368a2411E3",
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x1d4C2a246311bB9f827F4C768e277FF5787B7D7E",
+      "symbol": "MOVR",
+      "name": "Moonriver",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17984/small/9285.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x3405A1bd46B85c5C029483FbECf2F3E611026e45",
+      "symbol": "xcKSM",
+      "name": "XC Kusama",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/9568/small/m4zRhP5e_400x400.jpg"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xCa01a1D0993565291051daFF390892518ACfAD3A",
+      "symbol": "xcASTR",
+      "name": "XC Astar",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22617/small/astr.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x1d4C2a246311bB9f827F4C768e277FF5787B7D7E",
+      "symbol": "WMOVR",
+      "name": "Wrapped Moonriver",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17984/small/9285.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "symbol": "xcINTR",
+      "name": "XC Interlay",
+      "decimals": 10,
+      "logoURI": "https://assets.coingecko.com/coins/images/26892/small/intr.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x4204cAd97732282d261FbB7088e07557810A6408",
+      "symbol": "BNB",
+      "name": "Binance Coin",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x1B89bf39a2B4B5512e28B605720b4021d98E4b1A",
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png",
+      "tags": ["stablecoin", "wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x1FC56B105c4F0A1a8038c2b429932B122f6B631f",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12559/small/Avalanche_Circle_RedWhite_Trans.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x637ee7c4f1b6a32c5f5e1b00651e96de2fb12b34",
+      "symbol": "MATIC",
+      "name": "Polygon",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x6bF6D9A878c1fD7c5C6D682948b5a1B6A93eaF3a",
+      "symbol": "FTM",
+      "name": "Fantom",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4001/small/Fantom_round.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x3192Ae73315c3634Ffa217f71CF6CBc30FeE349A",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12645/small/AAVE.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x420D641Bb1907169dCdE93E9f1378ddCFF7C49a9",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12504/small/uni.jpg"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFffFFfa1B026a00FbAA67c86D5d1d5BF8D8228",
+      "symbol": "SUSHI",
+      "name": "SushiToken",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12271/small/512x512_Logo_no_chop.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52",
+      "symbol": "CRV",
+      "name": "Curve DAO Token",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12124/small/Curve.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x99C409E5f62E4bd2AC142f17caFb6810B8F0BAAE",
+      "symbol": "COMP",
+      "name": "Compound",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/10775/small/COMP.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFffFffAA2E1a6B0c41dB7bCfC4d0a8edB7b4df",
+      "symbol": "MKR",
+      "name": "Maker",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+      "symbol": "ATOM",
+      "name": "Cosmos",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xD7FBABCa07aC6B2F8e71cbe06a52Fa98c89Cb976",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "decimals": 24,
+      "logoURI": "https://assets.coingecko.com/coins/images/10365/small/near.jpg",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818",
+      "symbol": "LUNA",
+      "name": "Terra",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/8284/small/01_LunaClassic_color.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xE936CAA7f6d9F5C9e907111FCAf7c351c184CDA7",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/4128/small/solana.png",
+      "tags": ["wrapped"]
+    },
+    {
+      "chainId": 1284,
+      "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "symbol": "xcHDX",
+      "name": "XC HydraDX",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/23901/small/hdx.png"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
